@@ -1,0 +1,12 @@
+.App{
+  text-align: center;
+}
+.navigate{
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 10px;
+}
+.navigate a{
+  margin: 10px;
+  padding: 5px;
+}
