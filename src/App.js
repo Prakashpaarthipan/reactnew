@@ -19,7 +19,7 @@ function App() {
             <Route path="/about" element={<Protected cmp={About} />}> </Route>
             <Route path="/" element={<Auth mode="null" />}> </Route>
           </Routes>
-        </div >
+        </div>
       </div>
     </Router>
 
