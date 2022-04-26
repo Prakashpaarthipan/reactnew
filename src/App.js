@@ -1,12 +1,16 @@
 import { Home, Auth, Listing, About, Protected } from './cmp';
 import './App.css';
 import { BrowserRouter as Router, Routes, Link, Route } from 'react-router-dom'
+const logout = () => {
+  localStorage.clear()
+}
 function App() {
   return (
 
     <Router>
       <div className='App'>
         <div className='navigate'>
+          <Link to="/" onClick={logout}>Logout</Link>
           <Link to="home">Home</Link>
           <Link to="list">List</Link>
           <Link to="about">About</Link>
